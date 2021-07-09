@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA94674E2698B24E00BA3AC3 /* iPhone8.png in Resources */ = {isa = PBXBuildFile; fileRef = BA94674B2698B24E00BA3AC3 /* iPhone8.png */; };
+		BA94674F2698B24E00BA3AC3 /* 11 pro.png in Resources */ = {isa = PBXBuildFile; fileRef = BA94674C2698B24E00BA3AC3 /* 11 pro.png */; };
+		BA9467502698B24E00BA3AC3 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = BA94674D2698B24E00BA3AC3 /* iPad.png */; };
 		BAF12E9623524E27003600F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF12E9523524E27003600F4 /* AppDelegate.swift */; };
 		BAF12E9823524E27003600F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF12E9723524E27003600F4 /* ViewController.swift */; };
 		BAF12E9B23524E27003600F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF12E9923524E27003600F4 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA94674B2698B24E00BA3AC3 /* iPhone8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone8.png; sourceTree = "<group>"; };
+		BA94674C2698B24E00BA3AC3 /* 11 pro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11 pro.png"; sourceTree = "<group>"; };
+		BA94674D2698B24E00BA3AC3 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPad.png; sourceTree = "<group>"; };
 		BAF12E9223524E27003600F4 /* AutoLayoutevLops.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutevLops.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAF12E9523524E27003600F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAF12E9723524E27003600F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +43,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA94674A2698B24E00BA3AC3 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BA94674B2698B24E00BA3AC3 /* iPhone8.png */,
+				BA94674C2698B24E00BA3AC3 /* 11 pro.png */,
+				BA94674D2698B24E00BA3AC3 /* iPad.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		BAF12E8923524E26003600F4 = {
 			isa = PBXGroup;
 			children = (
@@ -63,6 +79,7 @@
 				BAF12E9C23524E28003600F4 /* Assets.xcassets */,
 				BAF12E9E23524E28003600F4 /* LaunchScreen.storyboard */,
 				BAF12EA123524E28003600F4 /* Info.plist */,
+				BA94674A2698B24E00BA3AC3 /* images */,
 			);
 			path = AutoLayoutevLops;
 			sourceTree = "<group>";
@@ -126,8 +143,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAF12EA023524E28003600F4 /* LaunchScreen.storyboard in Resources */,
+				BA94674E2698B24E00BA3AC3 /* iPhone8.png in Resources */,
+				BA94674F2698B24E00BA3AC3 /* 11 pro.png in Resources */,
 				BAF12E9D23524E28003600F4 /* Assets.xcassets in Resources */,
 				BAF12E9B23524E27003600F4 /* Main.storyboard in Resources */,
+				BA9467502698B24E00BA3AC3 /* iPad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
